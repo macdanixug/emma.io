@@ -1,0 +1,130 @@
+.frst{
+	background-color: lavender;
+}
+
+.form_b{
+	width: 90%;
+	height: auto;
+	background-color: lavender;
+	margin: 5rem;
+}
+form{
+	flex: 1 1 45rem;
+	padding: 2rem;
+	margin: 2rem;
+	margin-top: auto;
+
+}
+form .box{
+	padding: 0.1rem;
+	margin: 1rem 0;
+	background: #3333;
+	color: #000;
+	text-transform: none;
+	font-size: 1.7rem;
+	width: 100%;
+	box-shadow: 0px 0px 19px 5px black;
+	
+}
+form .message{
+	height: 15rem;
+	resize: none;
+	box-shadow: 0px 0px 19px 5px black;
+}
+form .box::placeholder{
+	text-transform: capitalize;
+}
+form .box:hover{
+	color: #000;
+}
+#btn2{
+	padding: .5rem 3rem;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 1rem;
+	font-size: 25px;
+	border-radius: 5rem;
+	margin-left: 40%;
+}
+.btn2 i{
+	padding: 0 .5rem;
+	font-size: 1.8rem;
+}
+.btn2:hover{
+	background: var(--yellow);
+}
+
+.footer{
+	font-weight: 400;
+	padding: 40px 0;
+	background-color: gray;
+	margin-top: -5%;
+	margin-left: 0;
+}
+.footer .socials{
+	text-align: center;
+	padding-bottom: 25px;
+	color: #fff;
+}
+.footer .socials a{
+	font-size: 24px;
+	color: inherit;
+	border: 1px solid #ccc;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 8px;
+	opacity: 0.75;
+}
+.footer .socials a:hover{
+	opacity: 0.9;
+}
+.footer ul{
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+	text-align: center;
+}
+.footer ul li a{
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.8;
+}
+.footer ul li{
+	display: inline-block;
+	padding: 0 15px;
+}
+.footer ul li a:hover{
+	opacity: 3;
+}
+.footer .copyright{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #fff;
+	opacity: 1;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
